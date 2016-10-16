@@ -15,6 +15,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ActivityithWizardCreatedFragment"
+            android:label="@string/title_activity_activityith_wizard_created_fragment"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="io.pello.android.fragmentsample.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
